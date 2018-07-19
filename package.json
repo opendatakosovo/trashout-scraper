@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/adoi/trashout-scraper#readme",
   "dependencies": {
-    "request": "^2.87.0"
+    "mongodb": "^3.1.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sync-request": "^6.0.0"
   }
 }
