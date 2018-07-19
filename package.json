@@ -1,0 +1,22 @@
+{
+  "name": "trashout-scraper",
+  "version": "1.0.0",
+  "description": "A Node.js scraper that will do requests to scrape JSON data of all Kosovo Trash Reports in trashout.ngo.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adoi/trashout-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adoi/trashout-scraper/issues"
+  },
+  "homepage": "https://github.com/adoi/trashout-scraper#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
