@@ -37,9 +37,9 @@ MongoClient.connect(
           c === "unknown" ||
           c === "undefined"
         ) {
-          console.log("Doc with id: " + c + " is not valid");
+          console.log(`Doc with id: ${c} is not valid`);
         } else if (res.error) {
-          console.log("Trashout point does not exist");
+          console.log(`Trashout point does not exist`);
         } else {
           console.log(`Read a doc with id ${res.id} from ${c}`);
         }
